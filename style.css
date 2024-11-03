@@ -1,0 +1,87 @@
+body {
+    background-color: blue;
+    height: 100vh;
+}
+
+.continer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.continer h3 {
+    text-align: center;
+    line-height: 3;
+}
+
+.continer div.botle {
+    width: 160px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: red;
+    margin: 10px auto;
+    position: relative;
+}
+
+.continer div.botle span {
+    width: 160px;
+    height: 0px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.continer div.botle span.activeone {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.continer div.botle span.activetwo {
+    height: 100px;
+    border-radius: 10px;
+}
+
+.continer div.botle span.activethree {
+    height: 150px;
+    border-radius: 10px;
+}
+
+.continer div.botle span.activefour {
+    height: 200px;
+    border-radius: 10px;
+}
+
+.continer div.botle span.activefive {
+    height: 250px;
+    border-radius: 10px;
+}
+
+.continer div.botle span.activesix {
+    height: 300px;
+    border-radius: 10px;
+}
+
+.continer .total {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.continer .total div {
+    background-color: blue;
+    padding: 10px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
